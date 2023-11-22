@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Samuel Raj portfolio</title>
+
+   </head>
+   <style>
+      .nav__logo-name{
+         width: 10ch;
+         white-space: nowrap;
+         overflow: hidden;
+         animation: type 3s;
+      }
+      @keyframes type {
+         from{
+            width: 0;
+         }
+      }
+   </style>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+         <a href="#" class="nav__logo">
+            <span class="nav__logo-circle">S</span>
+            <span class="nav__logo-name">Samuel Raj</span>
+         </a>
+         
+         <div class="nav__menu" id = "nav-menu">
+            <span class="nav__title">Menu</span>
+
+            <h3 class="nav__name">Samuel Raj</h3>
+
+            <ul class="nav__list">
+               <li class="nav__item">
+                  <a href="#home" class="nav__link">Home</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#about" class="nav__link">About Me</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#projects" class="nav__link">Projects</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#contact" class="nav__link nav__link-button">Contact Me</a>
+               </li>
+            </ul>
+
+            <!-- close button-->
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-line"></i>
+            </div>
+         </div>
+
+         <div class="nav__buttons">
+            <!-- Theme button-->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+   
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-4-line"></i>
+            </div>
+         </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home__container container grid">
+                <h1 class="home__name">
+                  Samuel Raj
+                </h1>
+
+                <div class="home__perfil">
+                  <div class="home__image">
+                     <img src="assets/images/passportSizePhoto.jpeg" alt="image" class="home__img">
+                     <div class="home__shadow"></div>
+                  </div>
+
+                     <img src="assets/images/random-lines.svg" alt="" class="home__line">
+                     <img src="assets/images/curved-arrow.svg" alt="" class="home__arrow">
+                     
+                     <div class="geometric-box"></div>
+                  
+                  <div class="home__social">
+                     <a href="https://www.linkedin.com/home" target = "_blank" class="home__social-link">
+                        <img src="assets/images/icons8-linkedin.svg" alt="linkedin" class="social-img">
+                      </a> 
+                     <a href="https://in.indeed.com/" target = "_blank" class="home__social-link">
+                        <img src="assets/images/icons8-indeed.svg" alt="" class="social-img">
+                      </a>       
+                  </div>
+
+                </div>
+
+                <div class="home__info">
+                  <p class="home__description">
+                     <b>"I'm a passionate Fullstack Developer</b> with a strong foundation in web development, committed to delivering exceptional projects that reflect my dedication to quality work."
+                  </p>
+
+                  <a href="#about" class="home__scroll">
+                     <div class="home__scroll-box">
+                        <i class="ri-arrow-down-s-line"></i>
+                     </div>
+
+                     <span class="home__scroll-text">Scroll Down</span>
+                  </a>
+                </div>
+               </div>    
+         </section>
+
+         <!--==================== ABOUT ====================-->
+         <section class="about section" id="about">
+            <div class = "about__container container grid">
+               <h2 class="section__title-1">
+                  About Me.
+               </h2>
+
+               <div class="about__perfil">
+                  <div class="about__image">
+                     <img src="assets/images/pass2.jpg" alt="image" class="about__img">
+                     <div class="about__shadow"></div>
+
+                     <div class="geometric-box"></div>
+                     <img src="assets/images/random-lines.svg" alt="" class="img about__line">
+                     <div class="about__box"></div>
+                  </div>
+               </div>
+
+               <div class="about__info">
+                   <p class="about__description">
+                     I'am a Skilled multitasker with superior work ethic and good teamwork, problem-solving, programming skills and organizational skills. Willing to take on any task to help team. Reliable and dedicated team player with hardworking and resourceful approach.
+                   </p>
+
+               <ul class="about__list">
+                  <li class="about__item">
+                     <b>My Skills Are:</b> Team work, Communication skills, Problem Solving and Quick Learning
+                  </li>
+                  <li class="about__item">
+                     <b>My Technical Skils Are :</b> Html, CSS, JavaScript, jQuery, Java, Python, SQL, NoSQL, EJS <br><b>FramWorks :</b>Bootstrap, Django, Nodejs & Expressjs
+                  </li>
+               </ul>
+
+               <div class="about__buttons">
+                  <a href="#contact" class="button">
+                     <i class="ri-send-plane-line"></i> Contact Me
+                  </a>
+
+                  <a href="https://www.linkedin.com/home" target = "_blank" class="button_ghost">
+                     <img src="assets/images/icons8-linkedin.svg" alt="linkedin" class="social-img">
+                  </a>
+                  
+                  <a href="https://in.indeed.com/" target = "_blank" class="button_ghost">
+                     <img src="assets/images/icons8-indeed.svg" alt="" class="social-img">
+                   </a>
+                   
+               </div>
+
+               </div>
+            </div>
+         </section>
+
+         <!--==================== PROJECTS ====================-->
+         <section class="projects section" id="projects">
+            <h2 class="section__title-1">
+               <span>Projects</span>
+            </h2>
+
+            <div class="projects__container container grid">
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="assets/images/pro1Photo.png" alt="image" class="projects__img" >
+
+                     <a href="E-commerce/index.html" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">MaxyTrend</h3>
+                     <h2 class="projects__title">Cart Basket E-commerce Site :  </h2>
+
+                     <p class="projects__desciption">Created a simple shopping cart website where users can browse and add products to their cart for purchase. The website has two main sections: the product display area and the cart section.</p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="https://github.com/" target="_blank"  class="projects__link">
+                        <i class="ri-github-line"></i>View
+                     </a>
+                  </div>
+                  
+               </article>
+
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="assets/images/pro2Photo.png" alt="image" class="projects__img">
+
+                     <a href="Todo List/index.html" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">To-Do</h3>
+                     <h2 class="projects__title">To-Do List Web Application :</h2>
+
+                     <p class="projects__desciption">Created a simple to-do list web application where users can add and manage tasks. The web page consists of a clean and user-friendly interface. It features a "To-Do List" heading and a section for adding and displaying tasks.</p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="https://github.com/" target="_blank"  class="projects__link">
+                        <i class="ri-github-line"></i>View
+                     </a>
+
+                  </div>
+                  
+               </article>
+
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="assets/images/pro3image.png" alt="image" class="projects__img">
+
+                     <a href="" class="projects__button button" onclick="alert('the creation for preview is under going you can view the sourcecode of the Project')">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">Patrician</h3>
+                     <h2 class="projects__title">News App</h2>
+
+                     <p class="projects__desciption">Created a news website using Django framework for displaying news articles and headlines. Designed a simple and user-friendly interface to present the news content.</p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="https://github.com/" target="_blank"  class="projects__link">
+                        <i class="ri-github-line"></i>View
+                     </a>
+
+                  </div>
+                  
+               </article>
+
+
+            </div>
+         </section>
+
+         <!--==================== CONTACT ====================-->
+         <section class="contact section" id="contact">
+            <div class="contact__container grid">
+               <div class="contact__data">
+                  <h2 class="section__title-2">
+                     <span>Contact Me.</span>
+                  </h2>
+
+                  <p class="contact__description-1">
+                     I will read all emails. Send me any message you want and I'll get back to you.
+                  </p>
+                  <p class="contact__description-2">
+                     I need your <b>Name</b> and <b>Email Address</b>, but you won't receive anything other than your reply.
+                  </p>
+
+                  <div class="geometric-box"></div>
+               </div>
+
+               <div class="contact__mail">
+                  <h2 class="contact__title">
+                     Send Me A Message 
+                  </h2>
+
+                  <form class="contact__form" id="contact_form">
+                     <div class="contact__group">
+                        <div class="contact__box">
+                           <input type="text" name="user_name" class="contact__input" id="name" required placeholder="First Name">
+                           <label for="name"  class="contact__label">First Name </label>
+                        </div>
+
+                       <div class="contact__box">
+                           <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email Address">
+                           <label for="email"  class="contact__label">Email Address</label>
+                        </div>
+                     </div>
+
+                     <div class="contact__box">
+                           <input type="text" name=user_name class="contact__input" id="subject" required placeholder="Subject">
+                           <label for="subject"  class="contact__label">Subject</label>
+                     </div>
+
+                     <div class="contact__box contact__area">
+                           <textarea name="user_message" id="message" class="contact__input" required placeholder="Message"></textarea>
+                           <label for="message"  class="contact__label">Message</label>
+                        </div>
+
+                     <p class="contact__message" id="contact-message"></p>
+
+                        <button type="submit" class="contact__button button"><i class="ri-send-plane-line"></i>Send Message</button>
+                  </form>
+               </div>
+
+               <div class="contact__social">
+                  <img src="assets/images/curved-arrow.svg" alt="" class="contact__social-arrow">
+
+                  <div class="contact__social-data">
+                     <div>
+                     <P class="contact__social-description-1">
+                        Does not send emails
+                     </P>
+                     <P class="contact__social-description-2">
+                        Write me on my social networks
+                     </P>
+                     </div>
+
+                  <div class="contact__social-links">
+                     <a href="" target="_blank" class="contact__social-link">
+                        <i class="ri-instagram-line"></i>
+                     </a>
+
+                     <a href="" target="_blank" class="contact__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                     </a>
+                  </div>
+                  </div>               
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <ul class="footer__links">
+               <li>
+                  <a href="#home" class="footer__link active-link">Home</a>
+               </li>
+
+               <li>
+                  <a href="#about" class="footer__link">About</a>
+               </li>
+
+               <li>
+                  <a href="#projects" class="footer__link">Projects</a>
+               </li>
+            </ul>
+
+            <span class="footer__copy">
+               Inspired and developed with help of <a href="https://youtu.be/-uQIBlaZ4P0?si=eNK2gxJg3s4Vv7Vz">Bedimcode.</a>
+            </span>
+         </div>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-s-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+      
+      <!--=============== EMAIL JS ===============-->
+      <script  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
