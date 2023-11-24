@@ -1048,7 +1048,7 @@ body.dark-theme{
   display: inline-flex;
   padding: 8px;
   font-size: 1.25rem;
-  color:var(--black-color);
+  color:var(--white-color);
   z-index:var(--z-tooltip);
   transition: bottom .4s, transform .4s, background-color .4s;
 }

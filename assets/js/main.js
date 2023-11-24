@@ -37,12 +37,11 @@ window.addEventListener('scroll',shadowHeader)
 const contactForm = document.getElementById('contact_form'),  
 contactMessage = document.getElementById('contact-message')
 
-console.log(contactForm);
 const sendEmail = (e) =>{
   e.preventDefault()
 
   // serviceID - templateID - #form - publicKey   
-  emailjs.sendForm('service_ttqvyqm','template_3ft1xz9','#contact_form','UF0Y2fLIP7pws-Ugf')
+  emailjs.sendForm('service_pa307fo','template_vzg9jmf','#contact_form','qRb-5CuF4em_ASaZA')
   .then(()=>{
     // Show sent message
     contactMessage.textContent = 'Message sent succesfully ✅'
@@ -78,13 +77,12 @@ window.addEventListener('scroll',scrollUp)
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 const sections = document.querySelectorAll('section[id]')
 
-
 const scrollActive = () =>{
-  const scrollDown = window.scrollY
+  const scrollDown = window.scrollY;
 
   sections.forEach(current => {
     const sectionHeight = current.offsetHeight,
-    sectionTop = current.offsetTop,
+    sectionTop = current.offsetTop - 56,
     sectionId = current.getAttribute('id'),
     sectionClass = document.querySelector('.nav__menu a[href*=' + sectionId + ']')
 
