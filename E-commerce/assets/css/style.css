@@ -433,9 +433,22 @@ body{
     color: red;
   }
 
-  /*---------------------[ Responsive Styling ------------------------------ */
+  /*--------------------- Responsive Styling ------------------------------ */
   /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .mainBan{
+    height: 300px;
+  }
+  .mainBan > img{
+    height: 300px;
+  }
+  .banner{
+    height: 300px;
+  }
+  .aradjust{
+    height: 300px;
+    top: -300px;
+  }
   .middle{
     position: absolute;
     width: 100%;
@@ -626,17 +639,19 @@ body{
 
 .scrollup{
   position: fixed;
-  bottom: 3rem;
+  bottom: -10%;
   width: 35px;
   height: 35px;
-  /* border: 1px solid black; */
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: 0px 0px 2px black;
   right: 2rem;
   background-color: var(--white-co);
-  transition: 4s;
+  transition: 1s;
+}
+.showscroll{
+  bottom: 3rem;
 }
 .uparrows{
   font-size: 25px !important;

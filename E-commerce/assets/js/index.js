@@ -332,7 +332,7 @@ closeSymbol.addEventListener('click',function(){
 const scrollUp = () =>{
   const scrollUp = document.getElementById('scroll-up')
 
-  this.scrollY >= 350 ? scrollUp.classList.add('show-scroll')
-                       : scrollUp.classList.remove('show-scroll')
+  this.scrollY >= 80 ? scrollUp.classList.add('showscroll')
+                       : scrollUp.classList.remove('showscroll')
 }
 window.addEventListener('scroll',scrollUp);

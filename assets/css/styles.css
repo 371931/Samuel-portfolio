@@ -95,7 +95,6 @@ img {
   display: flex;
   align-items: center;
   column-gap: 1rem;
-  margin-top: 21px;
 }
 
 .change-theme{
@@ -1181,6 +1180,7 @@ body.dark-theme{
   }
 
   .nav__list{
+    margin-bottom: 23px;
     flex-direction: row;
     column-gap: 7rem;
   }
