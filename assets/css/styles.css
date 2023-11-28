@@ -397,7 +397,7 @@ body.dark-theme{
 
 /* Active link */
 .active-link{
-  color:var(--black-color);
+  color:var(--first-color);
 }
 
 .active-link::after{
@@ -715,7 +715,9 @@ body.dark-theme{
 
 .projects__img{
   height: 212.500px !important;
+  object-fit: fill;
 }
+
 
 .projects__button{
   position: absolute;
@@ -1203,7 +1205,7 @@ body.dark-theme{
   }
 
   .active-link{
-    color: var(--black-color);
+    color: var(--first-color);
   }
   
   .change-theme{
