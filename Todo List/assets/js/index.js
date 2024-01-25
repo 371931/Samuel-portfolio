@@ -94,7 +94,6 @@ function oFo(){
     let keyna = document.querySelector('.typeArea');
     if(key.key === 'Enter'){
       if (keyna.value === '') {
-        alert('Type a Note and then Continue');
       } else {
         const newElement = document.createElement('div');
         newElement.innerHTML = toBeAdded(textBox.value);
