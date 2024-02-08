@@ -715,7 +715,7 @@ body.dark-theme{
 
 .projects__img{
   height: 212.500px !important;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 
